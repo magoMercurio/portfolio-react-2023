@@ -106,6 +106,16 @@ const Navbar = () => {
                   {label}
                 </a>
               ))}
+              <a
+              className="custom-button-colored"
+              href="https://github.com/magoMercurio"
+              target="_blank"
+              aria-label="GitHub" rel="noreferrer"
+            >
+              <GithubIcon />
+              <span className="pt-px">GitHub</span>
+            </a>
+              
             </div>
           </motion.div>
         )}
