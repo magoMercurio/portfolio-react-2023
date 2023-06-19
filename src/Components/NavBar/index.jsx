@@ -61,11 +61,10 @@ const Navbar = () => {
         >
           <div className="grow basis-0 justify-end hidden lg:flex">
             <a
-              className="text-white custom-border-gray rounded-xl
-              bg-customDarkBg2 hover:bg-customDarkBg3  border-green-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
+              className="custom-button-colored"
               href="https://github.com/magoMercurio"
               target="_blank"
-              aria-label="source code" rel="noreferrer"
+              aria-label="GitHub" rel="noreferrer"
             >
               <GithubIcon />
               <span className="pt-px">GitHub</span>

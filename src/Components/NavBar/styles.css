@@ -1,3 +1,10 @@
-.navbar-link {
-  @apply text-white lg:text-base text-2xl  leading-6 mr-4 ml-4   2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition duration-300 h-full pt-2;
-}
+
+
+/* .custom-hover-bg-customPrimary {
+  @apply hover:bg-[rgb(99, 102, 241)];
+} */
+
+
+/* .custom-button-colored {
+  @apply rounded-lg font-bold bg-customPrimary text-white flex justify-center items-center hover:bg-[#7274f3] cursor-pointer transition;
+} */

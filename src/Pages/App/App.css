@@ -5,6 +5,28 @@
 
 body {
   background-color: #26272b;
-  color: #f5f5f5;
+  color: #26272b;
 /*   color: #6366f1 ; */
+}
+
+@layer components {
+  .custom-hover-bg-customPrimary {
+    @apply hover:bg-[#6366f1];
+  }
+
+  .custom-button-colored {
+    @apply text-white custom-border-gray rounded-xl bg-[#26272b] hover:bg-[#7274f3]  pl-6 pr-8 pt-2 pb-2 text-sm flex;
+  }
+
+  .navbar-link {
+    @apply text-white lg:text-base text-2xl  leading-6 mr-4 ml-4   2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition duration-300 h-full pt-2;
+  }
+  
+  /* Bordes  */
+  .custom-border-gray {
+    @apply border border-solid border-[rgb(255,255,255,0.15)];
+  }
+  .custom-border-gray-darker {
+    @apply border border-solid border-[rgb(255,255,255,0.07)];
+  }
 }
