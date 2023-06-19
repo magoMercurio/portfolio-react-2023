@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 
 import Logo from '../../assets/images/logo.png'
 import GithubIcon from '../../assets/icons/GithubIcon'
-import './styles.css'
+
 
 
 const navbarLinks = [
