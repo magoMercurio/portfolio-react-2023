@@ -10,6 +10,7 @@ import GithubIcon from '../../assets/icons/GithubIcon'
 
 const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
+  { label: "Skills", href: "#skills", ariaLabel: "Skills" },
   { label: "Proyectos", href: "#proyectos", ariaLabel: "Proyectos" },
   { label: "Contacto", href: "#contacto", ariaLabel: "Contacto" },
 ];
