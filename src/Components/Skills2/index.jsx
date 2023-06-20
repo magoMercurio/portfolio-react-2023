@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 
 import section3 from '../../assets/images/section3.webp'
 import section4 from '../../assets/images/section4.jpg'
-import { CheckArrowIcon } from "../../assets/icons/CheckArrowIcon";
+import { CheckArrowIcon } from "../../assets/icons/CheckArrowIcon"
+
 
 const Skills2 = () => (
   <section className="w-full bg-customDarkBg2 mt-12 sm:mt-20 mb-10 lg:my-20 pt-4">
@@ -46,7 +47,7 @@ const Skills2 = () => (
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Capacidad para crear y adaptar soluciones digitales únicas que reflejen la visión del cliente.</span>
+                <span>Creación y adaptación de soluciones digitales únicas que reflejen la visión del cliente.</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
