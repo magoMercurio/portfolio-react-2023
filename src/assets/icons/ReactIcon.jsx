@@ -1,4 +1,4 @@
-export const ReactIcon = () => (
+const ReactIcon = () => (
   <div className="rounded-full bg-transparent w-5 h-5 flex justify-center items-center mr-4">
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -9,3 +9,5 @@ export const ReactIcon = () => (
     </svg>
   </div>
 );
+
+export default ReactIcon
