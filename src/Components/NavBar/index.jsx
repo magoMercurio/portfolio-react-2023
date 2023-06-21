@@ -8,8 +8,6 @@ import Logo from '../../assets/images/logo.png'
 import GithubIcon from '../../assets/icons/GithubIcon'
 
 
-
-
 const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
   { label: "Skills", href: "#skills", ariaLabel: "Skills" },

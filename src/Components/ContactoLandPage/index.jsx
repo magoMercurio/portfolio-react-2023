@@ -2,12 +2,13 @@ import { motion } from "framer-motion";
 
 import { EnvelopeIcon } from '@heroicons/react/24/outline'
 import {TwitterIcon} from '../../assets/icons/TwitterIcon'
+import LinkedinIcon from '../../assets/icons/LinkedinIcon'
 
 
 const ContactoLandPage = () => {
 
   return (
-    <section className="lg:mb-16 w-full flex flex-col justify-center items-center bg-customDarkBg1">
+    <section className="lg:mb-16 w-full flex flex-col justify-center items-center bg-customDarkBg1" id="contacto">
       <div className="custom-shape-divider-bottom-1665696614">
         <svg
           data-name="Layer 1"
@@ -59,7 +60,7 @@ const ContactoLandPage = () => {
               target="_blank"
               aria-label="GitHub" rel="noreferrer"
             >
-              <TwitterIcon className="w-6 h-6 text-customGrayText mr-3" />
+              <TwitterIcon className="w-6 h-6 text-white mr-3" />
               <span className="pt-px">Twitter</span>
             </a></li>
               <li><a
@@ -68,7 +69,7 @@ const ContactoLandPage = () => {
               target="_blank"
               aria-label="GitHub" rel="noreferrer"
             >
-              <EnvelopeIcon className="w-6 h-6 text-customGrayText mr-3" />
+              <LinkedinIcon />
               <span className="pt-px">LinkedIn</span>
             </a></li>
             </ul>
