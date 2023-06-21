@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { EnvelopeIcon } from '@heroicons/react/24/outline'
-import {TwitterIcon} from '../../assets/icons/TwitterIcon'
+import TwitterIcon from '../../assets/icons/TwitterIcon'
 import LinkedinIcon from '../../assets/icons/LinkedinIcon'
 
 
@@ -29,7 +29,7 @@ const ContactoLandPage = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center items-cen bg-customDarkBg1 pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
+        <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center items-cen bg-customDarkBg1 pt-12 lg:pt-24 pb-8 lg:pb-10 mx-auto lg:flex-row flex-col">
           <div className="w-3/4 lg:w-1/2 flex flex-col lg:mx-unset mx-auto">
             <span className="custom-block-subtitle">
             ¡Contáctame hoy mismo y comencemos a hacer realidad tu proyecto!
