@@ -6,10 +6,6 @@ import Footer from '../../Components/Footer'
 import ScrollUpButton from '../../Components/ScrollUpButton'
 
 
-
-
-
-
 function App() {
 
   return (
