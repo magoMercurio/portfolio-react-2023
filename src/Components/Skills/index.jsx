@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 
 import { CheckArrowIcon } from "../../assets/icons/CheckArrowIcon";
 
-import section1 from '../../assets/images/section1.jpeg'
-import section2 from '../../assets/images/section2.jpg'
+import section1 from '../../assets/images/section1.webp'
+import section2 from '../../assets/images/section2.webp'
 import section3 from '../../assets/images/section3.webp'
-import section4 from '../../assets/images/section4.jpg'
+import section4 from '../../assets/images/section4.webp'
 
 
 

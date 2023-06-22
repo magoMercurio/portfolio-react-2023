@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import section3 from '../../assets/images/section3.webp'
-import section4 from '../../assets/images/section4.jpg'
+import section4 from '../../assets/images/section4.webp'
 import { CheckArrowIcon } from "../../assets/icons/CheckArrowIcon"
 
 

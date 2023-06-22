@@ -24,12 +24,10 @@ const ProyectosLandPage = () => (
         <div className="grid justify-items-center grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-3 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
           {proyectosData.map((proyecto, index) => (
             <div
-              className="w-11/12 h-fit sm:w-4/5 md:w-auto lg:w-auto custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col px-6 py-4"
+              className="w-11/12 h-fit sm:w-4/5 md:w-auto md:h-[350px] lg:w-auto custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col justify-center px-6 py-4"
               key={`${proyecto.proyectName} - ${index}`}
             >
-              <div className="flex mb-2">
-                <QuoteIcon />
-              </div>
+              
               <div className="flex justify-center">
               <img src={proyecto.image} alt="" width="280px" />
               </div>

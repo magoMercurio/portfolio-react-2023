@@ -5,7 +5,7 @@ import TwitterIcon  from '../../assets/icons/TwitterIcon';
 import { EnvelopeIcon } from '@heroicons/react/24/outline'
 import LinkedinIcon from '../../assets/icons/LinkedinIcon'
 
-import Logo from '../../assets/images/logo.png'
+import Logo from '../../assets/images/logo.webp'
 
 
 

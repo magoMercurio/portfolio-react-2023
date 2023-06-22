@@ -1,10 +1,10 @@
 
-import proyectImg1 from "../assets/images/devflix.png";
-import proyectImg2 from "../assets/images/org.png";
-import proyectImg3 from "../assets/images/barberiaimg.png";
-import proyectImg4 from "../assets/images/smartbank.png";
-import proyectImg5 from "../assets/images/yardsale.png";
-import proyectImg6 from "../assets/images/todoimg1.png";
+import proyectImg1 from "../assets/images/devflix.webp";
+import proyectImg2 from "../assets/images/org.webp";
+import proyectImg3 from "../assets/images/barberiaimg.webp";
+import proyectImg4 from "../assets/images/smartbank.webp";
+import proyectImg5 from "../assets/images/yardsale.webp";
+import proyectImg6 from "../assets/images/todoimg1.webp";
 
 export const proyectosData = [
   {
