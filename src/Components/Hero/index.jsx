@@ -49,7 +49,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0, zIndex: 20 }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <div className="relative w-screen flex justify-center  ">
+          <div className="relative w-screen flex justify-center" >
             <img
               src={HeroImg}
               alt="123"
@@ -57,8 +57,8 @@ const Hero = () => {
             />
           </div>
         </motion.div>
-        <div className="relative w-screen flex justify-center ">
-          <div className="custom-shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-52 hidden lg:block">
+        <div className="relative w-screen flex justify-center " >
+          <div className="custom-shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-52 hidden lg:block" >
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"

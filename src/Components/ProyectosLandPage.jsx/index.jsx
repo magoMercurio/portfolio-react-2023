@@ -1,11 +1,10 @@
 import { motion } from "framer-motion";
 
-import { QuoteIcon } from "../../assets/icons/QuoteIcon";
 import { proyectosData } from "../../Data/ProyectosData";
 
 
 const ProyectosLandPage = () => (
-  <section className="w-full flex justify-center pt-10 mb-16 lg:mb-32 bg-customDarkBg2 relative">
+  <section className="w-full flex justify-center pt-10 mb-16 lg:mb-32 bg-customDarkBg2 relative" id="proyectos">
     <div className="absolute -top-16" id="feedback" />
     <div className="flex flex-col w-full lg:w-[1150px] justify-center">
       <motion.div
@@ -27,7 +26,7 @@ const ProyectosLandPage = () => (
               className="w-11/12 h-fit sm:w-4/5 md:w-auto md:h-[350px] lg:w-auto custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col justify-center px-6 py-4"
               key={`${proyecto.proyectName} - ${index}`}
             >
-              
+              <a href={ proyecto.urlProyect }>
               <div className="flex justify-center">
               <img src={proyecto.image} alt="" width="280px" />
               </div>
@@ -40,7 +39,9 @@ const ProyectosLandPage = () => (
                     {proyecto.description}
                   </div>
                 </div>
+                
               </div>
+              </a>
             </div>
           ))}
         </div>
