@@ -12,7 +12,7 @@ import section4 from '../../assets/images/section4.webp'
 export const Skills = () => {
   return (
     <section
-      className="w-full bg-customDarkBg2 mt-20 mb-8 sm:mt-16 sm:mb-16 xl:mt-0  xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0"
+      className="w-full bg-customDarkBg2 mt-20 mb-8 sm:mt-16 sm:mb-16 xl:mt-30  xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0"
       id="servicios"
     >
       <motion.div

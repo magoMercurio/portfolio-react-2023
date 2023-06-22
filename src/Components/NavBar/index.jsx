@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { Link } from "react-router-dom"
 import { motion, AnimatePresence } from "framer-motion"
 
 
@@ -27,13 +26,13 @@ const Navbar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <Link to="/" >
+          <a href="#home" >
             <div className="flex justify-start items-center grow basis-0">
               <div className="text-white font-['Inter'] font-bold text-xl">
                 <img src={Logo} alt="Logo" className="w-25" />
               </div>
             </div>
-          </Link>
+          </a>
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
