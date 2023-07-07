@@ -13,7 +13,7 @@ const ProyectosLandPage = () => (
         viewport={{ once: true }}
         transition={{ duration: 0.4, delay: 0.3 }}
       >
-        <div className="custom-block-subtitle text-center mb-6">
+        <div className="custom-block-subtitle text-center mb-6 mt-36">
           Inspiración hecha realidad
         </div>
         <div className="custom-block-big-title text-center mb-16 px-8 sm:px-24 md:px-48">
