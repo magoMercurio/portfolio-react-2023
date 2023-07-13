@@ -12,7 +12,7 @@ export const proyectosData = [
     proyectName: "Psicologo",
     description: "Landing-Page creada para un psicologo",
     image: proyectImg1,
-    urlProyect: "https://raulpsicologo.netlify.app/",
+    urlProyect: "https://rauldavilapsicologo.com",
   },
   {
     proyectName: "Devflix",
