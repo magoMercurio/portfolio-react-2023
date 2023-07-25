@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import { motion } from "framer-motion";
 
 import { proyectosData } from "../../Data/ProyectosData";
@@ -26,7 +27,7 @@ const ProyectosLandPage = () => (
               className="w-11/12 h-fit sm:w-4/5 md:w-auto md:h-[350px] lg:w-auto custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col justify-center px-6 py-4"
               key={`${proyecto.proyectName} - ${index}`}
             >
-              <a href={ proyecto.urlProyect }>
+              <a href={ proyecto.urlProyect } target="_blank">
               <div className="flex justify-center">
               <img src={proyecto.image} alt="" width="280px" />
               </div>
