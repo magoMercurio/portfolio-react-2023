@@ -13,7 +13,7 @@ export const proyectosData = [
     proyectName: "Maribel Tristan Psicologa",
     description: "Landing-Page creada para una psicologa",
     image: proyectImg1,
-    urlProyect: "https://maribeltristan.netlify.app/",
+    urlProyect: "https://terapiaconmaribel.com/",
   },
   {
     proyectName: "Raul Davila Psicologo",
